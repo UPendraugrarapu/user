@@ -4,5 +4,5 @@ params: "DOCUMENTDB:prod.user.mongo,REDIS_HOST:prod.elasticache.endpoint,MONGO_U
 
 schemaLoadJob:
   create: true
-  type: mysql
+  type: mongo
 
