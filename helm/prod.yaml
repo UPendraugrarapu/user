@@ -1,2 +1,8 @@
+env: prod
 component: user
 params: "DOCUMENTDB:prod.user.mongo,REDIS_HOST:prod.elasticache.endpoint,MONGO_URL:prod.docdb.url.user"
+
+schemaLoadJob:
+  create: true
+  type: mysql
+
